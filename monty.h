@@ -75,4 +75,5 @@ void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
 void file_queue(stack_t **head, unsigned int counter);
 void file_stack(stack_t **head, unsigned int counter);
+
 #endif

@@ -64,7 +64,7 @@ void file_swap(stack_t **head, unsigned int counter);
 void file_add(stack_t **head, unsigned int counter);
 void file_nop(stack_t **head, unsigned int counter);
 void file_sub(stack_t **head, unsigned int counter);
-void f_div(stack_t **head, unsigned int counter);
+void file_div(stack_t **head, unsigned int counter);
 void file_mul(stack_t **head, unsigned int counter);
 void file_mod(stack_t **head, unsigned int counter);
 void file_pchar(stack_t **head, unsigned int counter);

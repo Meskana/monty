@@ -13,7 +13,7 @@ void file_push(stack_t **head, unsigned int counter)
 	{
 		if (bus.arg[0] == '-')
 			j++;
-		for (j; bus.arg[j] != '\0'; j++)
+		for (; bus.arg[j] != '\0'; j++)
 		{
 			if (bus.arg[j] > 57 || bus.arg[j] < 48)
 				flag = 1; }
